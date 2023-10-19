@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Start Selenium Process</title>
+    <title>Selenoid UI</title>
 </head>
 <body>
-    <h1>Start Selenium Process</h1>
-    <form method="POST" action="/start">
-        <button type="submit">Start Process</button>
+    <h1>Welcome to Selenoid UI</h1>
+    <p>Click the buttons below to run Selenium or view Selenoid UI.</p>
+
+    <form method="POST" action="/run_selenium">
+        <button type="submit">Run Selenium</button>
+    </form>
+
+    <form method="GET" action="/selenoid_ui">
+        <button type="submit">Selenoid UI</button>
     </form>
 </body>
 </html>
